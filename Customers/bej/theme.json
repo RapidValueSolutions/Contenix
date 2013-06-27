@@ -1,0 +1,773 @@
+{
+    ////////////////////////////////////// SPLASH SCREEN ///////////////////////////
+    "SplashBackground":{
+        "css_entity_type":"css_id",
+        "background":{
+            "background-image":"splash.png",
+            "background-color":"#00FFFF"
+        }
+    },
+    "SplashBackgroundIPhone":{
+        "css_entity_type":"css_id",
+        "background":{
+            "background-image":"splashIPhone.png",
+            "background-color":"#00FFFF"
+        }
+    },
+   ////////////////////////////////////// HOME SCREEN ///////////////////////////
+    "HomeBackground":{
+        "css_entity_type":"css_id",
+        "background":{
+            "background-image":"home.png",
+            "background-color":"#FFFFFF"
+        }
+    },
+    "homeSlides":{
+        "css_entity_type":"css_id",
+        "text-align":"center",
+        "color":{
+        },
+        "background":{
+            "background-color2":"#000000"
+        }
+    },
+    "sampleNote":{
+        "css_entity_type":"css_id",
+        "color":{
+            "text-color":"#FF0000",
+        },
+        "font":{
+            "title-font":"Helvetica,72",
+        },
+        "position":{
+            "text-alignment": "center",
+        },
+    },
+   
+    
+    ////////////////////////////////////// MAINFRAME SCREEN ///////////////////////////
+    "HeaderBackground":{
+        "css_entity_type":"css_id",
+        "background":{
+            "background-image":"header.png",
+            "background-color":"#FFFFFF"
+        }
+    },
+    "tabBar":{
+        "css_entity_type":"css_id",
+        "background":{
+            "background-image2":"bar_bottom.png"
+        },
+        "color":{
+            "border-color":"#FFFFFF",
+            "text-color":"#777777",
+            "highlighted-color":"#777777",
+        },
+        "font":{
+            "header-font":"Helvetica neue,30",
+            "title-font":"HelveticaNeue neue,9",
+            "subtitle-font":"Helvetica neue,20",
+            "text-font":"Helvetica neue,9",
+            "selected-font":"Helvetica neue,9",
+        },
+        "position":{
+            "tab-space":"50",
+            "title-frame":"0, 35, 250, 15",
+            "image-frame":"0, 3, 65, 44",
+        },
+    },
+    "tabBarIPhone":{
+        "css_entity_type":"css_id",
+        "background":{
+            "background-image2":"bar_bottom.png"
+        },
+        "color":{
+            "border-color":"#FFFFFF",
+            "text-color":"#777777",
+            "highlighted-color":"#777777",
+        },
+        "font":{
+            "header-font":"Helvetica neue,30",
+            "title-font":"HelveticaNeue neue,8",
+            "subtitle-font":"Helvetica neue,20",
+            "text-font":"Helvetica neue,8",
+            "selected-font":"Helvetica neue,8",
+        },
+        "position":{
+            "tab-space":"0",
+            "title-frame":"0, 35, 250, 15",
+            "image-frame":"0, 3, 64, 44",
+        },
+    },
+    "poweredBy":{
+        "css_entity_type":"css_id",
+        "color":{
+            "text-color":"#777777",
+        },
+        "font":{
+            "title-font":"Helvetica neue,10",
+        },
+    },
+
+    
+    ////////////////////////////////////// MISC ///////////////////////////
+    "generalBackground":{
+        "css_entity_type":"css_class",
+        "background":{
+            "background-color":"#000000"
+        }
+    },
+    "whiteLine":{
+        "css_entity_type":"css_class",
+        "background":{
+            "background-color":"#333333"
+        }
+    },
+    "collectonMenu":{
+        "css_entity_type":"css_id",
+        "color":{
+            "text-color":"#FFFFFF",
+            "highlighted-color":"#FFFFFF",
+            
+        },
+        "font":{
+            "title-font":"Helvetica-Bold,14"
+        },
+        "background":{
+            "cell-gradient" : "#0076a3;#004080",
+            "cell-selected-gradient" : "#00C0D0;#00C0D0"
+        },
+        "position":{
+            "title-frame":"110, -5, 120, -5",
+            "image-frame":"2, 2, 75, 75",
+        },
+    },
+    "productGrid":{
+        "css_entity_type":"css_class",
+        "background":{
+            "background-image":"product-grid.png",
+            "background-color2":"#000000"
+        },
+        "color":{
+            "title-color":"#FFFFFF",
+            "subtitle-color":"#FFFFFF"
+        },
+        "font":{
+            "title-font":"Helvetica,17",
+            "subtitle-font":"Helvetica,12",
+        },
+        "position":{
+            "title-frame":"8, 230, 235, 30",
+            "subtitle-frame":"8, 250, 235, 30",
+            "image-frame":"7, 8, 238, 223",
+            "text-alignment": "center",
+            "icon-frame" : "10, 10, 40, 19;200, 10, 32, 22"   // New icon, favorites icon
+        },
+        
+    },
+    "productGridIPhone":{
+        "css_entity_type":"css_class",
+        "background":{
+            "background-image":"product-grid-iPhone.png",
+            "background-color2":"#FFFFFF"
+        },
+        "color":{
+            "title-color":"#FFFFFF",
+            "subtitle-color":"FFFFFF"
+        },
+        "font":{
+            "title-font":"Filosofia OT,12",
+            "subtitle-font":"Helvetica,12",
+        },
+        "position":{
+            "title-frame":"0, 114, 114, 30",
+            "subtitle-frame":"0, 0, 0, 0",
+            "image-frame":"0, 0, 108, 108",
+            "text-alignment": "center",
+            "icon-frame" : "10, 10, 20, 9;100, 5, 25, 17"   // New icon, favorites icon
+        },
+        
+    },
+
+    ///////////////////////////////// COLLECTION TAB /////////////////////////////////
+    "topBar":{
+        "css_entity_type":"css_class",
+        "background":{
+            "background-image":"bar.png"
+        }
+    },
+    "topCollectionLabel":{
+        "css_entity_type":"css_class",
+        "color":{
+            "text-color":"#FFFFFF",
+        },
+        "font":{
+            "title-font":"Helvetica-Bold, 16",
+        },
+        "position":{
+            "text-alignment" : "left"
+        },
+    },
+    "collectionChildBack":{
+        "css_entity_type":"css_id",
+        "color":{
+            "text-color":"#999999"
+        },
+        "font":{
+            "title-font":"Verdana,16",
+        },
+        "position":{
+            "text-alignment" : "left"
+        },
+    },
+
+    ///////////////////////////////// PRODUCT DETAIL ///////////////////////////////
+    "backButton":{
+        "css_entity_type":"css_class",
+        "color":{
+            "background-color":"#FF00DD",
+            "border-color":"#FFFFFF",
+            "text-color":"#FFFFFF"
+        },
+        "font":{
+            "header-font":"Helvetica,30",
+            "title-font":"Helvetica,14",
+            "subtitle-font":"Helvetica,14",
+            "text-font":"Helvetica,14"
+        },
+        "background":{
+            "background-image":"back.png",
+            "background-color":"#cccccc"
+        }
+    },
+    "backButtonIPhone":{
+        "css_entity_type":"css_class",
+        "color":{
+            "text-color":"#999999"
+        },
+        "font":{
+            "title-font":"Verdana,16",
+        },
+        "position":{
+            "text-alignment" : "left"
+        },
+    },
+    "PDetailTitle":{
+        "css_entity_type":"css_id",
+        "color":{
+            "text-color":"#FFFFFF",
+        },
+        "font":{
+            "title-font":"Verdana,20",
+        },
+        "position":{
+            "text-alignment" : "left"
+        },
+        
+    },
+    "PDetailRef":{
+        "css_entity_type":"css_id",
+        "color":{
+            "text-color":"#FFFFFF",
+        },
+        "font":{
+            "title-font":"Verdana,14",
+        },
+        "position":{
+            "text-alignment" : "left"
+        },
+        
+    },
+    "PDetailDes":{
+        "css_entity_type":"css_id",
+        "background":{
+            "background-color":"#999999",
+        },
+        "color":{
+            "text-color":"#FFFFFF",
+        },
+        "font":{
+            "title-font":"Arial,12",
+        },
+        "position":{
+            "text-alignment" : "left"
+        },
+        
+    },
+    "emailButton":{
+        "css_entity_type":"css_class",
+        "color":{
+            "background-color":"#FF00DD",
+            "border-color":"#FFFFFF",
+            "text-color":"#FFFFFF"
+        },
+        "font":{
+            "header-font":"Helvetica,30",
+            "title-font":"Helvetica,14",
+            "subtitle-font":"Helvetica,14",
+            "text-font":"Helvetica,14"
+        },
+        "background":{
+            "background-image":"emailicon.png",
+            "background-color":"#cccccc"
+        }
+    },
+    "videoButton":{
+        "css_entity_type":"css_class",
+        "color":{
+            "background-color":"#FF00DD",
+            "border-color":"#FFFFFF",
+            "text-color":"#FFFFFF"
+        },
+        "font":{
+            "header-font":"Helvetica,30",
+            "title-font":"Helvetica,14",
+            "subtitle-font":"Helvetica,14",
+            "text-font":"Helvetica,14"
+        },
+        "background":{
+            "background-image":"mdt_videobutton.png",
+            "background-color":"#000000"
+        }
+    },
+    "favoritesButton":{
+        "css_entity_type":"css_class",
+        "color":{
+            "background-color":"#FF00DD",
+            "border-color":"#FFFFFF",
+            "text-color":"#FFFFFF"
+        },
+        "font":{
+            "header-font":"Helvetica,30",
+            "title-font":"Helvetica,14",
+            "subtitle-font":"Helvetica,14",
+            "text-font":"Helvetica,14"
+        },
+        "background":{
+            "background-image":"favorite_icon.png",
+            "selected-background-image":"favorite_icon_color.png",
+            "background-color":"#000000"
+        }
+    },
+    "favoritesButtonIPhone":{
+        "css_entity_type":"css_class",
+        "color":{
+            "background-color":"#FF00DD",
+            "border-color":"#FFFFFF",
+            "text-color":"#FFFFFF"
+        },
+        "font":{
+            "header-font":"Helvetica,30",
+            "title-font":"Helvetica,14",
+            "subtitle-font":"Helvetica,14",
+            "text-font":"Helvetica,14"
+        },
+        "background":{
+            "background-image":"favorite_icon_iphone.png",
+            "selected-background-image":"favorite_icon_color_iphone.png",
+            "background-color":"#000000"
+        }
+    },
+    "imageZoom":{
+        "css_entity_type":"css_id",
+        "text-align":"center",
+        "background":{
+            "background-color":"#000000"
+        }
+    },
+    "altProducts":{
+        "css_entity_type":"css_id",
+        "background":{
+            "background-color":"#000000"
+        },
+        "color":{
+            "border-color":"#FFFFFF",
+            "title-color":"#FFFFFF",
+            "subtitle-color":"#FFFFFF"
+        },
+        "font":{
+            "title-font":"Helvetica,17",
+            "subtitle-font":"Helvetica,12",
+        },
+        "position":{
+            "title-frame":"8, 230, 220, 30",
+            "subtitle-frame":"8, 250, 220, 30",
+            "image-frame":"0, 0, 65, 65",
+            "text-alignment": "center"
+        },
+        
+    },
+    "altProductsIPhone":{
+        "css_entity_type":"css_id",
+        "background":{
+            "background-image":"shadow_relatedWatches.png"
+        },
+        "color":{
+            "border-color2":"#FFFFFF",
+            "title-color":"#FFFFFF",
+            "subtitle-color":"#FFFFFF"
+        },
+        "font":{
+            "title-font":"Helvetica,17",
+            "subtitle-font":"Helvetica,12",
+        },
+        "position":{
+            "title-frame":"8, 230, 220, 30",
+            "subtitle-frame":"8, 250, 220, 30",
+            "image-frame":"0, 0, 50, 50",
+            "text-alignment": "center"
+        }
+    },
+    "buttonLabels":{
+        "css_entity_type":"css_class",
+        "color":{
+            "text-color":"#555555",
+        },
+        "font":{
+            "title-font":"Arial,12",
+        },
+        "position":{
+            "text-alignment" : "left"
+        },
+        
+    },
+    "attributesGrid":{
+        "css_entity_type":"css_class",
+        "color":{
+            "title-color":"#FFFFFF",
+            "subtitle-color":"#999999"
+        },
+        "position":{
+            "tab-space":"10",
+            "title-frame":"10, 0, 100, 200",
+            "subtitle-frame":"120, 0, 100, 200",
+            
+        },
+        "font":{
+            "title-font":"Helvetica-Bold,15",
+            "subtitle-font":"Helvetica,15",
+        },
+    },
+    "attributesGridIPhone":{
+        "css_entity_type":"css_class",
+        "background":{
+            "background-color":"#999999",
+        },
+        "color":{
+            "title-color":"#FFFFFF",
+            "subtitle-color":"#000000"
+        },
+        "position":{
+            "tab-space":"10",
+            "title-frame":"5, 0, 50, 200",
+            "subtitle-frame":"60, 0, 90, 200",
+            
+        },
+        "font":{
+            "title-font":"Helvetica-Bold,15",
+            "subtitle-font":"Helvetica,15",
+        },
+    },
+
+    /////////////////////////////// VIDEOS / MEDIA TAB ///////////////////////////
+    "mediaGrid":{
+        "css_entity_type":"css_id",
+        "background":{
+            "cell-gradient":"#322421;#1D1513"
+        },
+        "color":{
+            "title-color":"#FFFFFF",
+            "subtitle-color":"#FFFFFF"
+        },
+        "font":{
+            "title-font":"Helvetica,12",
+            "subtitle-font":"Helvetica,12",
+        },
+        "position":{
+            "title-frame":"80, 0, 255, 60",
+            "image-frame":"10, 10, 60, 60",
+            "text-alignment": "left"
+        },
+        
+    },
+    "mediaGridIPhone":{
+        "css_entity_type":"css_id",
+        "background":{
+            "cell-gradient":"#322421;#1D1513"
+        },
+        "color":{
+            "title-color":"#FFFFFF",
+            "subtitle-color":"#FFFFFF"
+        },
+        "font":{
+            "title-font":"Helvetica,12",
+            "subtitle-font":"Helvetica,12",
+        },
+        "position":{
+            "title-frame":"80, 0, 235, 60",
+            "image-frame":"10, 10, 60, 60",
+            "text-alignment": "left"
+        },
+        
+    },
+
+    /////////////////////////////// FAVORITES /////////////////////////////////
+    "favoritesBackgroundRight":{
+        "css_entity_type":"css_id",
+        "background":{
+            "background-color":"#333333"
+        }
+    },
+    "favoriteEmail":{
+        "css_entity_type":"css_id",
+        "color":{
+            "background-color":"#FF00DD",
+            "border-color":"#FFFFFF",
+            "text-color":"#FFFFFF"
+        },
+        "font":{
+            "header-font":"Helvetica,30",
+            "title-font":"Helvetica,14",
+            "subtitle-font":"Helvetica,14",
+            "text-font":"Helvetica,14"
+        },
+        "background":{
+            "background-image":"emailicon.png",
+        }
+    },
+    "favoriteButtonText":{
+        "css_entity_type":"css_class",
+        "color":{
+            "text-color":"#FFFFFF",
+        },
+        "font":{
+            "title-font":"Arial,12",
+        },
+        "position":{
+            "text-alignment" : "left"
+        },
+        
+    },
+    "favoriteLabels":{
+        "css_entity_type":"css_class",
+        "color":{
+            "text-color":"#FFFFFF",
+        },
+        "font":{
+            "title-font":"Filosofia OT,18",
+        },
+        "position":{
+            "text-alignment" : "left"
+        },
+        
+    },
+    "closeButton":{
+        "css_entity_type":"css_class",
+        "background":{
+            "background-image":"closeButton.png",
+        }
+    },
+    "mySelectionTitle":{
+        "css_entity_type":"css_class",
+        "color":{
+            "text-color":"#FFFFFF",
+        },
+        "font":{
+            "title-font":"Filosofia OT-Bold,25",
+        },
+        "position":{
+            "text-alignment" : "left"
+        },
+    },
+
+    /////////////////////////// COLLECTION MEDIA TAB ///////////////////////////////
+    "noCollectionBackground":{
+        "css_entity_type":"css_id",
+        "background":{
+            "background-color":"#000000"
+        }
+    },
+    "videoAndPictureGrid":{
+        "css_entity_type":"css_class",
+        "background":{
+            "background-color2":"#FFFFFF",
+            "background-image":"white-grid-background.png",
+        },
+        "color":{
+            "title-color":"#333333",
+            "subtitle-color":"333333"
+        },
+        "font":{
+            "title-font":"Filosofia OT,17",
+            "subtitle-font":"Helvetica,12",
+        },
+        "position":{
+            "title-frame":"8, 138, 210, 40",
+            "subtitle-frame":"0, 0, 0, 0",
+            "image-frame":"0, 0, 222, 127",
+            "text-alignment": "center",
+            "icon-frame" : "195, 200, 31, 19"
+        },
+        
+    },
+    
+    ////////////////////////// SEARCH TAB ////////////////////////////
+    "searchBox":{
+        "css_entity_type":"css_class",
+        "background":{
+            "background-color":"#333333",
+        },
+        "color":{
+            "text-color":"#999999",
+            "border-color":"#999999",
+        },
+        "font":{
+            "text-font":"Helvetica,15",
+        },
+    },
+    "searchButtons":{
+        "css_entity_type":"css_class",
+        "color":{
+            "text-color":"#FFFFFF",
+        },
+        "font":{
+            "title-font":"Arial,22",
+        },
+        "position":{
+            "text-alignment": "center",
+        },
+        
+    },
+    "searchButtonsIPhone":{
+        "css_entity_type":"css_class",
+        "color":{
+            "text-color":"#FFFFFF",
+        },
+        "font":{
+            "title-font":"Arial,16",
+        },
+        "position":{
+            "text-alignment": "center",
+        },
+        
+    },
+    
+    "emptySearchText":{
+        "css_entity_type":"css_id",
+        "color":{
+            "text-color":"#FF0000",
+        },
+        "font":{
+            "title-font":"Arial-Bold,32",
+        },
+        
+    },
+    "searchSectionPanel":{
+        "css_entity_type":"css_class",
+        "color":{
+            "border-color":"#999999",
+        },
+    },
+    "searchLeftPanel":{
+        "css_entity_type":"css_id",
+        "background":{
+            "background-color":"#333333"
+        }
+    },
+    "searchTextLabels":{
+        "css_entity_type":"css_class",
+        "color":{
+            "text-color":"#FFFFFF",
+        },
+    },
+    "searchTextLabelsIPhone":{
+        "css_entity_type":"css_class",
+        "color":{
+            "text-color":"#FFFFFF",
+        },
+        "position":{
+            "text-alignment": "center",
+        },
+    },
+    "attributeDropdowns":{
+        "css_entity_type":"css_class",
+        "color":{
+            "text-color":"#FFFFFF",
+            "highlighted-color":"#FFFFFF",
+            
+        },
+        "font":{
+            "title-font":"Helvetica-Bold,14"
+        },
+        "background":{
+            "cell-gradient" : "#555555;#999999",
+            "cell-selected-gradient" : "#00C0D0;#00C0D0"
+        },
+        "position":{
+            "title-frame":"10, 5, 90, 25",
+        },
+    },
+    "advancedTitle":{
+        "css_entity_type":"css_id",
+        "color":{
+            "text-color":"#FFFFFF",
+        },
+        "position":{
+            "text-alignment": "center",
+        },
+        "font":{
+            "title-font":"Helvetica-Bold,20"
+        },
+    },
+    "searchColTitles":{
+        "css_entity_type":"css_class",
+        "color":{
+            "text-color":"#777777",
+        },
+        "position":{
+            "text-alignment": "center",
+        },
+        "font":{
+            "title-font":"Helvetica-Bold,14"
+        },
+    },
+    "searchColTitlesIPhone":{
+        "css_entity_type":"css_class",
+        "color":{
+            "text-color":"#777777",
+        },
+        "position":{
+            "text-alignment": "center",
+        },
+        "font":{
+            "title-font":"Helvetica-Bold,10"
+        },
+    },
+    "productSearchGridIPhone":{
+        "css_entity_type":"css_class",
+        "background":{
+            "background-image":"product-grid-iPhoneSearch.png",
+            "background-color2":"#FFFFFF"
+        },
+        "color":{
+            "title-color":"#FFFFFF",
+            "subtitle-color":"FFFFFF"
+        },
+        "font":{
+            "title-font":"Filosofia OT,12",
+            "subtitle-font":"Helvetica,12",
+        },
+        "position":{
+            "title-frame":"0, 60, 60, 20",
+            "subtitle-frame":"0, 0, 0, 0",
+            "image-frame":"0, 0, 60, 60",
+            "text-alignment": "center",
+            "icon-frame" : "0, 0, 20, 9;40, 5, 20, 13"   // New icon, favorites icon
+        },
+        
+    },
+  
+
+    
+    
+}
