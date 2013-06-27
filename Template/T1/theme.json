@@ -278,6 +278,15 @@
         },
         
     },
+    "PDetailDescrHtml":{
+        "css_entity_type":"css_id",
+        "color":{
+            "text-color":"#FFFFFF",
+        },
+        "font":{
+            "text-font":"Verdana,14",
+        },
+    },
     "PDetailDes":{
         "css_entity_type":"css_id",
         "background":{
@@ -312,7 +321,15 @@
             "background-color":"#cccccc"
         }
     },
-    "videoButton":{
+    "shareButton":{
+        "css_entity_type":"css_id",
+        "background":{
+            "background-image":"shareIcon.png",
+            "background-color":"#00FFFF"
+        }
+    },
+
+   "videoButton":{
         "css_entity_type":"css_class",
         "color":{
             "background-color":"#FF00DD",

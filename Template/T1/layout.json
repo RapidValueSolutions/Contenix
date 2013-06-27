@@ -18,8 +18,8 @@
                                            "PortraitOnlyLayout": [],
                                            "LandscapeOnlyLayout": [],
                                            "PortraitAndLandscapeLayout": [
-                                                                          // BACKGROUND
                                                                           {
+                                                                          "Comments" : "Background",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0,0, 320, *480",
@@ -49,8 +49,8 @@
                                            "PortraitOnlyLayout": [],
                                            "LandscapeOnlyLayout": [],
                                            "PortraitAndLandscapeLayout": [
-                                                                          // BACKGROUND
                                                                           {
+                                                                          "Comments" : "Background",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0,0, 1024, 748",
@@ -58,9 +58,9 @@
                                                                           "Datasource":"none",
                                                                           "EntityID":"SplashBackground",    // Theme
                                                                           "Enabled" : true,
-                                                                         },
-
-                                                                        ]
+                                                                          },
+                                                                          
+                                                                          ]
                                            }
                                            
                                            ]
@@ -86,8 +86,8 @@
                                            "PortraitOnlyLayout": [],
                                            "LandscapeOnlyLayout": [],
                                            "PortraitAndLandscapeLayout": [
-                                                                          // BACKGROUND
                                                                           {
+                                                                          "Comments" : "Background",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0,0, 320, *430",
@@ -96,8 +96,8 @@
                                                                           "EntityID":"HomeBackground",  // Theme
                                                                           "Enabled" : true,
                                                                           },
-                                                                          // SLIDESHOW (Used if set in configuration)
                                                                           {
+                                                                          "Comments" : "Slideshow (used if set in configuration)",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTSlideshowWidget",
                                                                           "Datasource": "SlidesData",
@@ -112,8 +112,8 @@
                                                                           "ImageChanged": "imageChanged:"
                                                                           }
                                                                           },
-                                                                          // Powered by Contenix
                                                                           {
+                                                                          "Comments" : "Powered by Contenix",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -124,8 +124,8 @@
                                                                           "URL" : "Powered By Contenix",
                                                                           "EntityID":"poweredBy"  // Theme
                                                                           },
-                                                                          // SAMPLE
                                                                           {
+                                                                          "Comments" : "Sample",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -160,8 +160,8 @@
                                            "PortraitOnlyLayout": [],
                                            "LandscapeOnlyLayout": [],
                                            "PortraitAndLandscapeLayout": [
-                                                                          // BACKGROUND
-                                                                         {
+                                                                          {
+                                                                          "Comments" : "Background",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0,0, 1024, 618",
@@ -170,8 +170,8 @@
                                                                           "EntityID":"HomeBackground",  // Theme
                                                                           "Enabled" : true,
                                                                           },
-                                                                          // SLIDESHOW (Used if set in configuration)
                                                                           {
+                                                                          "Comments" : "Slideshow (used if set in configuration)",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTSlideshowWidget",
                                                                           "Datasource": "SlidesData",
@@ -182,12 +182,12 @@
                                                                           "EntityID":"homeSlides",  // Theme
                                                                           "Actions":
                                                                           {
-                                                                            "ImageClicked": "slideshowClicked:",
-                                                                            "ImageChanged": "imageChanged:"
+                                                                          "ImageClicked": "slideshowClicked:",
+                                                                          "ImageChanged": "imageChanged:"
                                                                           }
                                                                           },
-                                                                          // SAMPLE
                                                                           {
+                                                                          "Comments" : "Sample",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -226,8 +226,8 @@
                                            "PortraitOnlyLayout": [],
                                            "LandscapeOnlyLayout": [],
                                            "PortraitAndLandscapeLayout": [
-                                                                          // Background
                                                                           {
+                                                                          "Comments" : "Background",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0,0, 320, 80",
@@ -239,6 +239,7 @@
                                                                           
                                                                           // Tab bar menu
                                                                           {
+                                                                          "Comments" : "Tab bar menu",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTTabBarWidget",
                                                                           "Datasource": "Tabs",
@@ -256,6 +257,7 @@
                                                                           
                                                                           // White separator line above tab bar
                                                                           {
+                                                                          "Comments" : "White separator line above tab bar",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0, *410, 320, 1",
@@ -265,7 +267,7 @@
                                                                           "CSSClass":"whiteLine",
                                                                           "Enabled" : true,
                                                                           },
-                                                                         
+                                                                          
                                                                           ]
                                            }
                                            
@@ -288,6 +290,7 @@
                                            "PortraitAndLandscapeLayout": [
                                                                           // Background
                                                                           {
+                                                                          "Comments" : "Background",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0,0, 1024, 80",
@@ -299,6 +302,7 @@
                                                                           
                                                                           // Tab bar menu
                                                                           {
+                                                                          "Comments" : "Tab bar menu",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTTabBarWidget",
                                                                           "Datasource": "Tabs",
@@ -310,12 +314,13 @@
                                                                           "EntityID": "tabBar", // Theme
                                                                           "Actions":
                                                                           {
-                                                                            "TabClicked": "tabSelected:"
+                                                                          "TabClicked": "tabSelected:"
                                                                           }
                                                                           },
                                                                           
                                                                           // White separator line above tab bar
                                                                           {
+                                                                          "Comments" : "White separator line above tab bar",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0, 698, 1024, 1",
@@ -327,6 +332,7 @@
                                                                           },
                                                                           // Powered by Contenix
                                                                           {
+                                                                          "Comments" : "Powered by Contenix",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -337,14 +343,14 @@
                                                                           "URL" : "Powered By Contenix",
                                                                           "EntityID":"poweredBy"  // Theme
                                                                           },
-
+                                                                          
                                                                           ]
                                            }
                                            
                                            ]
         }
     },
-
+    
     ///////////////////////////////////// COLLECTION TAB ////////////////////////////////////
     "CollectionViewController": {
         "EntityType": "CFTLayout",
@@ -366,6 +372,7 @@
                                            "PortraitAndLandscapeLayout": [
                                                                           // BACKGROUND
                                                                           {
+                                                                          "Comments" : "Background",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0,0, 1024, 618",
@@ -378,6 +385,7 @@
                                                                           
                                                                           // BACKGROUND WHEN THERE IS NO COLLECTION
                                                                           {
+                                                                          "Comments" : "Background when there is no collection",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "264, 0, 760, 618",
@@ -392,6 +400,7 @@
                                                                           
                                                                           // COLLECTION MENU
                                                                           {
+                                                                          "Comments" : "Collection Menu",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTExplorer",
                                                                           "Datasource": "collectionsDatasource",
@@ -412,7 +421,8 @@
                                                                           }
                                                                           },
                                                                           // PRODUCT GRID
-                                                                         {
+                                                                          {
+                                                                          "Comments" : "Product Grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageGridWidget",
                                                                           "Datasource": "collectionProducts",
@@ -435,6 +445,7 @@
                                                                           },
                                                                           // BACK BUTTON for 2nd screen with product grid
                                                                           {
+                                                                          "Comments" : "Back button for 2nd screen with product grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "backButtonData",
@@ -475,6 +486,7 @@
                                            "PortraitAndLandscapeLayout": [
                                                                           // BACKGROUND
                                                                           {
+                                                                          "Comments" : "Background",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0,0, 1024, 748",
@@ -487,6 +499,7 @@
                                                                           /////////////////////////// Top bars ///////////////////
                                                                           // Bar above product grid
                                                                           {
+                                                                          "Comments" : "Bar above product grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "255, 0, 789, 49",
@@ -498,6 +511,7 @@
                                                                           },
                                                                           // Bar above collection menu
                                                                           {
+                                                                          "Comments" : "Bar above collection menu",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0, 0, 250, 49",
@@ -509,6 +523,7 @@
                                                                           },
                                                                           // Text above collection menu
                                                                           {
+                                                                          "Comments" : "Text above collection menu",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "collectionText",
@@ -521,6 +536,7 @@
                                                                           },
                                                                           // Text above product grid
                                                                           {
+                                                                          "Comments" : "Text above product grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "selectedCollectionText",
@@ -534,6 +550,7 @@
                                                                           /////////////////////////////////////////////////////
                                                                           // COLLECTION MENU
                                                                           {
+                                                                          "Comments" : "Collection Menu",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTExplorer",
                                                                           "Datasource": "collectionsDatasource",
@@ -552,6 +569,7 @@
                                                                           },
                                                                           // PRODUCT GRID
                                                                           {
+                                                                          "Comments" : "Product Grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageGridWidget",
                                                                           "Datasource": "collectionProducts",
@@ -569,14 +587,14 @@
                                                                           "TapAndHold": "tapAndHold:"
                                                                           }
                                                                           },
-  
+                                                                          
                                                                           ]
                                            }
                                            
                                            ]
         }
     },
-
+    
     ///////////////////////////////////// PHOTOS TAB ////////////////////////////////////
     "AlbumsViewController": {
         "EntityType": "CFTLayout",
@@ -601,6 +619,7 @@
                                                                           
                                                                           // COLLECTION MENU
                                                                           {
+                                                                          "Comments" : "Collection Menu",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTExplorer",
                                                                           "Datasource": "collectionsDatasource",
@@ -613,13 +632,14 @@
                                                                           "CellHeight": 80,
                                                                           "CellClass": "CFTExplorerCell",
                                                                           "Actions": {
-                                                                            "CellSelected": "collectionSelected:",
+                                                                          "CellSelected": "collectionSelected:",
                                                                           
                                                                           }
                                                                           },
                                                                           
                                                                           // Photos grid
                                                                           {
+                                                                          "Comments" : "Photos grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageGridWidget",
                                                                           "Datasource": "collectionAlbums",
@@ -633,8 +653,8 @@
                                                                           "Direction": "Vertical",
                                                                           "Actions":
                                                                           {
-                                                                            "SingleTap": "productSelected:",
-                                                                            "TapAndHold": "tapAndHold:"
+                                                                          "SingleTap": "productSelected:",
+                                                                          "TapAndHold": "tapAndHold:"
                                                                           }
                                                                           },
                                                                           
@@ -666,6 +686,7 @@
                                            "PortraitAndLandscapeLayout": [
                                                                           // BACKGROUND
                                                                           {
+                                                                          "Comments" : "Background",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0,0, 1024, 618",
@@ -677,6 +698,7 @@
                                                                           },
                                                                           // BACK BUTTON
                                                                           {
+                                                                          "Comments" : "Back Button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "backButtonData",
@@ -694,6 +716,7 @@
                                                                           },
                                                                           // ALT PRODUCTS GRIDS
                                                                           {
+                                                                          "Comments" : "Alt Products Grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageGridWidget",
                                                                           "Datasource": "altProducts",
@@ -714,6 +737,7 @@
                                                                           
                                                                           // TITLE
                                                                           {
+                                                                          "Comments" : "Title",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "titleData",
@@ -726,6 +750,7 @@
                                                                           },
                                                                           // REFERENCE
                                                                           {
+                                                                          "Comments" : "Reference",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "refData",
@@ -738,6 +763,7 @@
                                                                           },
                                                                           // FREE TEXT DATA - example, not used
                                                                           {
+                                                                          "Comments" : "Free Text Data (example, not used)",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "freeTextData",
@@ -749,7 +775,8 @@
                                                                           "EntityID":"PDetailFreeText"
                                                                           },
                                                                           // EMAIL BUTTON
-                                                                         {
+                                                                          {
+                                                                          "Comments" : "Email Button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "emailButtonData2",
@@ -766,6 +793,7 @@
                                                                           },
                                                                           // EMAIL TEXT BUTTON
                                                                           {
+                                                                          "Comments" : "Email Text Button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -782,9 +810,9 @@
                                                                           }
                                                                           
                                                                           },
-                                                                          
                                                                           // FAVORITES BUTTON
                                                                           {
+                                                                          "Comments" : "Favorites Button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "favoritesButtonData2",
@@ -802,6 +830,7 @@
                                                                           
                                                                           // FAVORITES BUTTON TEXT
                                                                           {
+                                                                          "Comments" : "Favorites Button Text",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -821,6 +850,7 @@
                                                                           
                                                                           // VIDEO BUTTON
                                                                           {
+                                                                          "Comments" : "Video Button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "videoButtonData2",
@@ -837,6 +867,7 @@
                                                                           },
                                                                           // VIDEO BUTTON TEXT
                                                                        	  {
+                                                                          "Comments" : "Video Button Text",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -857,6 +888,7 @@
                                                                           // MAIN IMAGE
                                                                           // No theme used
                                                                           {
+                                                                          "Comments" : "Main Image",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageZoom",
                                                                           "Datasource": "productImages",
@@ -875,6 +907,7 @@
                                                                           },
                                                                           // ZOOM BUTTON
                                                                           {
+                                                                          "Comments" : "Zoom Button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "zoomButtonData2",
@@ -890,6 +923,7 @@
                                                                           },
                                                                           // ZOOM IMAGE
                                                                           {
+                                                                          "Comments" : "Zoom Image",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageZoom",
                                                                           "Datasource": "imageZoomData",
@@ -911,6 +945,7 @@
                                                                           ////////////////// DESCRIPTION POP OVER /////////////////
                                                                           // BUTTON TO SHOW DESCRIPTION
                                                                           {
+                                                                          "Comments" : "Button to show description",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -929,6 +964,7 @@
                                                                           },
                                                                           // DESCRIPTION CLOSE BUTTON
                                                                           {
+                                                                          "Comments" : "Description close button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -949,6 +985,7 @@
                                                                           },
                                                                           // DESCRIPTION
                                                                           {
+                                                                          "Comments" : "Description",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTTextViewWidget",
                                                                           "Datasource": "descriptionData",
@@ -963,6 +1000,7 @@
                                                                           },
                                                                           // ATTRIBUTES GRID
                                                                           {
+                                                                          "Comments" : "Attributes grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTTextGridWidget",
                                                                           "Datasource": "attributesGrid",
@@ -974,9 +1012,9 @@
                                                                           "EntityID":"attributesGrid",   // Theme
                                                                           "AnimationType" : "fade",
                                                                           "AnimationDisplay" : false,
-
+                                                                          
                                                                           },
-     
+                                                                          
                                                                           
                                                                           ]
                                            }
@@ -1002,6 +1040,7 @@
                                                                           
                                                                           // BACK BUTTON
                                                                           {
+                                                                          "Comments" : "Back Button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -1013,11 +1052,12 @@
                                                                           "CSSClass":"backButton",  // Theme
                                                                           "Actions":
                                                                           {
-                                                                            "ButtonClicked": "backClicked:"
+                                                                          "ButtonClicked": "backClicked:"
                                                                           }
                                                                           },
                                                                           // TITLE
                                                                           {
+                                                                          "Comments" : "Title",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "titleData",
@@ -1030,6 +1070,7 @@
                                                                           },
                                                                           // REFERENCE
                                                                           {
+                                                                          "Comments" : "Reference",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "refData",
@@ -1042,18 +1083,33 @@
                                                                           },
                                                                           // DESCRIPTION
                                                                           {
+                                                                          "Comments" : "Description",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTTextViewWidget",
                                                                           "Datasource": "descriptionData",
                                                                           "ButtonWidgetIndex": 1,
-                                                                          "Enabled" : true,
+                                                                          "Enabled" : false,
                                                                           "PortraitFrame": "550, 170, 400, 300",
                                                                           "LandscapeFrame": "550, 170, 400, 300",
                                                                           "CSSClass":"",
                                                                           "EntityID":"PDetailRef"   // Theme
                                                                           },
+                                                                          // DESCRIPTION HTML
+                                                                          {
+                                                                          "Comments" : "Description HTML",
+                                                                          "EntityType": "CFTWidget",
+                                                                          "WidgetClass": "CFTWebView",
+                                                                          "Datasource": "descriptionDataHTML",
+                                                                          "ButtonWidgetIndex": 1,
+                                                                          "Enabled" : true,
+                                                                          "PortraitFrame": "550, 170, 400, 300",
+                                                                          "LandscapeFrame": "550, 170, 400, 300",
+                                                                          "CSSClass":"",
+                                                                          "EntityID":"PDetailDescrHtml"   // Theme
+                                                                          },
                                                                           // ATTRIBUTES GRID
                                                                           {
+                                                                          "Comments" : "Attributes grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTTextGridWidget",
                                                                           "Datasource": "attributesGrid",
@@ -1066,6 +1122,7 @@
                                                                           },
                                                                           // EMAIL BUTTON
                                                                           {
+                                                                          "Comments" : "Email button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -1077,12 +1134,29 @@
                                                                           "CSSClass":"emailButton", // Theme
                                                                           "Actions":
                                                                           {
-                                                                            "ButtonClicked": "emailClicked:"
+                                                                          "ButtonClicked": "emailClicked:"
+                                                                          }
+                                                                          },
+                                                                          // SHARE BUTTON
+                                                                          {
+                                                                          "Comments" : "Share button",
+                                                                          "EntityType": "CFTWidget",
+                                                                          "WidgetClass": "CFTButtonWidget",
+                                                                          "Datasource": "bogus",
+                                                                          "ButtonWidgetIndex": 0,
+                                                                          "Enabled" : true,
+                                                                          "PortraitFrame": "230, 580, 24, 24",
+                                                                          "LandscapeFrame": "230, 580, 24, 24",
+                                                                          "EntityID":"shareButton",
+                                                                          "Actions":
+                                                                          {
+                                                                          "ButtonClicked": "shareClicked"
                                                                           }
                                                                           },
                                                                           // MAIN IMAGE
                                                                           // No theme used
                                                                           {
+                                                                          "Comments" : "Main Image",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageZoom",
                                                                           "Datasource": "productImages",
@@ -1094,13 +1168,14 @@
                                                                           "CSSClass":"",
                                                                           "Actions":
                                                                           {
-                                                                            "SingleTap": "zoomImage:",
-                                                                            "DoubleTap": "zoomImage:"
+                                                                          "SingleTap": "zoomImage:",
+                                                                          "DoubleTap": "zoomImage:"
                                                                           }
                                                                           
                                                                           },
                                                                           // VIDEO BUTTON
                                                                           {
+                                                                          "Comments" : "Video button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "videoButtonData",
@@ -1117,13 +1192,14 @@
                                                                           },
                                                                           // FAVORITES BUTTON
                                                                           {
+                                                                          "Comments" : "Favorites button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "favoritesButtonData2",
                                                                           "ButtonWidgetIndex": 0,
                                                                           "Enabled" : true,
-                                                                          "PortraitFrame": "280, 565, 65, 44",
-                                                                          "LandscapeFrame": "280, 565, 65, 44",
+                                                                          "PortraitFrame": "280, 567, 65, 44",
+                                                                          "LandscapeFrame": "280, 567, 65, 44",
                                                                           "EntityID":"favoritesButton1",
                                                                           "CSSClass":"favoritesButton",
                                                                           "Actions":
@@ -1133,6 +1209,7 @@
                                                                           },
                                                                           // ALT PRODUCTS GRIDS
                                                                           {
+                                                                          "Comments" : "Alt products grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageGridWidget",
                                                                           "Datasource": "altProducts",
@@ -1146,12 +1223,13 @@
                                                                           "Direction": "horizontal",
                                                                           "Actions":
                                                                           {
-                                                                            "SingleTap": "productSelected:",
-                                                                            "TapAndHold": "tapAndHold:"
+                                                                          "SingleTap": "productSelected:",
+                                                                          "TapAndHold": "tapAndHold:"
                                                                           }
                                                                           },
                                                                           // Vertical line
                                                                           {
+                                                                          "Comments" : "Vertical line",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "530, 30, 1, 550",
@@ -1163,6 +1241,7 @@
                                                                           },
                                                                           // ZOOM (which animates in)
                                                                           {
+                                                                          "Comments" : "Zoom (which animates in)",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageZoom",
                                                                           "Datasource": "imageZoomData",
@@ -1176,19 +1255,19 @@
                                                                           "AnimationDisplay" : false,   // Start off screen
                                                                           "Actions":
                                                                           {
-                                                                            "SingleTap": "closeZoom:",
-                                                                            "DoubleTap": "doubleTap:"
+                                                                          "SingleTap": "closeZoom:",
+                                                                          "DoubleTap": "doubleTap:"
                                                                           }
                                                                           
                                                                           },
-
+                                                                          
                                                                           ]
                                            }
                                            
                                            ]
         }
     },
-
+    
     ///////////////////////////////////// VIDEOS/MEDIA TAB (If mediaTabByCollection is NO) ////////////////////////////////////
     "MediaViewController": {
         "EntityType": "CFTLayout",
@@ -1210,6 +1289,7 @@
                                            "PortraitAndLandscapeLayout": [
                                                                           // Grid
                                                                           {
+                                                                          "Comments" : "Grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageGridWidget",
                                                                           "Datasource": "brandAssets",
@@ -1250,6 +1330,7 @@
                                            "PortraitAndLandscapeLayout": [
                                                                           // Grid
                                                                           {
+                                                                          "Comments" : "Grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageGridWidget",
                                                                           "Datasource": "brandAssets",
@@ -1263,8 +1344,8 @@
                                                                           "Direction": "Vertical",
                                                                           "Actions":
                                                                           {
-                                                                            "SingleTap": "videoSelected:",
-                                                                            "TapAndHold": "tapAndHold:"
+                                                                          "SingleTap": "videoSelected:",
+                                                                          "TapAndHold": "tapAndHold:"
                                                                           }
                                                                           },
                                                                           
@@ -1296,6 +1377,7 @@
                                            "PortraitAndLandscapeLayout": [
                                                                           // GRID
                                                                           {
+                                                                          "Comments" : "Grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageGridWidget",
                                                                           "Datasource": "noveltyProducts",
@@ -1318,7 +1400,7 @@
                                            }
                                            
                                            ]
-        
+            
         },
         "IPadLayout": {
             "EntityType": "CFTLayout",
@@ -1337,6 +1419,7 @@
                                            "PortraitAndLandscapeLayout": [
                                                                           // GRID
                                                                           {
+                                                                          "Comments" : "Grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageGridWidget",
                                                                           "Datasource": "noveltyProducts",
@@ -1350,8 +1433,8 @@
                                                                           "Direction": "Vertical",
                                                                           "Actions":
                                                                           {
-                                                                            "SingleTap": "productSelected:",
-                                                                            "TapAndHold": "tapAndHold:"
+                                                                          "SingleTap": "productSelected:",
+                                                                          "TapAndHold": "tapAndHold:"
                                                                           }
                                                                           },
                                                                           
@@ -1382,6 +1465,7 @@
                                            "PortraitAndLandscapeLayout": [
                                                                           // BACKGROUND BEHIND GRID
                                                                           {
+                                                                          "Comments" : "Background behind Grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0, 0, 320, 460",
@@ -1393,6 +1477,7 @@
                                                                           },
                                                                           // GRID
                                                                           {
+                                                                          "Comments" : "Grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageGridWidget",
                                                                           "Datasource": "collectionProducts",
@@ -1413,6 +1498,7 @@
                                                                           },
                                                                           // Email Button
                                                                           {
+                                                                          "Comments" : "Email Button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -1431,6 +1517,7 @@
                                                                           },
                                                                           // Email button text button
                                                                           {
+                                                                          "Comments" : "Email button text button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "emailListTittle",
@@ -1451,6 +1538,7 @@
                                                                           },
                                                                           // Email instructions / title
                                                                           {
+                                                                          "Comments" : "Email instructions / title",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "emailFriendTittle",
@@ -1466,6 +1554,7 @@
                                                                           },
                                                                           // Delete all button
                                                                           {
+                                                                          "Comments" : "Delete all button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -1484,6 +1573,7 @@
                                                                           },
                                                                           // Delete all button text button
                                                                           {
+                                                                          "Comments" : "Delete all text button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "DeleteAllTittle",
@@ -1504,6 +1594,7 @@
                                                                           },
                                                                           // Number of selections text
                                                                           {
+                                                                          "Comments" : "Number of selections text",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "numberOfSelections",
@@ -1517,6 +1608,7 @@
                                                                           "EntityID":"numberOfSelections"
                                                                           },
                                                                           {
+                                                                          "Comments" : "My selections Text",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "mySelections",
@@ -1529,6 +1621,7 @@
                                                                           },
                                                                           // Empty Right pane text
                                                                           {
+                                                                          "Comments" : "Empty Right Pane",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "emptyWishlist",
@@ -1564,6 +1657,7 @@
                                            "PortraitAndLandscapeLayout": [
                                                                           // BACKGROUND BEHIND GRID
                                                                           {
+                                                                          "Comments" : "Background behind grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0,0, 1024, 748",
@@ -1575,6 +1669,7 @@
                                                                           },
                                                                           // GRID
                                                                           {
+                                                                          "Comments" : "Grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageGridWidget",
                                                                           "Datasource": "collectionProducts",
@@ -1597,6 +1692,7 @@
                                                                           ////////////////// LEFT PANE //////////////
                                                                           // LEFT BAR BACKGROUND
                                                                           {
+                                                                          "Comments" : "Left bar background",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0, 0, 250, 618",
@@ -1607,6 +1703,7 @@
                                                                           },
                                                                           // Email Button
                                                                           {
+                                                                          "Comments" : "Email button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -1624,6 +1721,7 @@
                                                                           },
                                                                           // Email button text button
                                                                           {
+                                                                          "Comments" : "Email button text button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -1643,6 +1741,7 @@
                                                                           },
                                                                           // Title of left bar
                                                                           {
+                                                                          "Comments" : "Title of left bar",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "titleData",
@@ -1658,6 +1757,7 @@
                                                                           },
                                                                           // Delete all button
                                                                           {
+                                                                          "Comments" : "Delete all button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -1676,6 +1776,7 @@
                                                                           },
                                                                           // Delete all button text button
                                                                           {
+                                                                          "Comments" : "Delete all button text button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -1696,6 +1797,7 @@
                                                                           },
                                                                           // Number of selections text
                                                                           {
+                                                                          "Comments" : "Number of selections text",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "numberOfSelections",
@@ -1710,6 +1812,7 @@
                                                                           },
                                                                           // Title
                                                                           {
+                                                                          "Comments" : "Title",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -1724,6 +1827,7 @@
                                                                           ///////////////////////////////////////
                                                                           // Empty Right pane text
                                                                           {
+                                                                          "Comments" : "Empty Right pane text",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -1766,6 +1870,7 @@
                                            "PortraitAndLandscapeLayout": [
                                                                           // BACKGROUND
                                                                           {
+                                                                          "Comments" : "Background",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0,0, 1024, 618",
@@ -1777,6 +1882,7 @@
                                                                           },
                                                                           // BACKGROUND WHEN THERE IS NO COLLECTION
                                                                           {
+                                                                          "Comments" : "Background when there is no collection",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "264, 0, 760, 618",
@@ -1790,6 +1896,7 @@
                                                                           },
                                                                           // LEFT COLLECTION MENU
                                                                           {
+                                                                          "Comments" : "Left Collection Menu",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTExplorer",
                                                                           "Datasource": "collectionsDatasource",
@@ -1809,6 +1916,7 @@
                                                                           },
                                                                           // VIDEO GRID
                                                                           {
+                                                                          "Comments" : "Video grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageGridWidget",
                                                                           "Datasource": "collectionVideos",
@@ -1854,6 +1962,7 @@
                                            "PortraitAndLandscapeLayout": [
                                                                           // Name Search text
                                                                           {
+                                                                          "Comments" : "Name Search text",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -1867,6 +1976,7 @@
                                                                           },
                                                                           // Name Search data entry
                                                                           {
+                                                                          "Comments" : " Name Search data entry",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTextEdit",
                                                                           "Datasource": "nameSearchDataSource",
@@ -1878,6 +1988,7 @@
                                                                           },
                                                                           // Reference Search text
                                                                           {
+                                                                          "Comments" : "Reference Search text",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -1891,6 +2002,7 @@
                                                                           },
                                                                           // Reference Search data entry
                                                                           {
+                                                                          "Comments" : "Reference Search data entry",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTextEdit",
                                                                           "Datasource": "refSearchDataSource",
@@ -1902,6 +2014,7 @@
                                                                           },
                                                                           // SEARCH BUTTON
                                                                           {
+                                                                          "Comments" : "Search button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -1919,6 +2032,7 @@
                                                                           },
                                                                           // PRODUCT GRID
                                                                           {
+                                                                          "Comments" : "Product grid",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageGridWidget",
                                                                           "Datasource": "productsFound",
@@ -1939,6 +2053,7 @@
                                                                           /////////////////// Advanced search /////////////
                                                                           // LEFT NAME TITLE
                                                                           {
+                                                                          "Comments" : "Left name title",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -1952,6 +2067,7 @@
                                                                           },
                                                                           // LEFT NAME LIST
                                                                           {
+                                                                          "Comments" : "Left name list",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTExplorer",
                                                                           "Datasource": "attributeNameDatasource",
@@ -1970,6 +2086,7 @@
                                                                           },
                                                                           // RIGHT NAME TITLE
                                                                           {
+                                                                          "Comments" : "Right name title",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -1983,6 +2100,7 @@
                                                                           },
                                                                           // RIGHT VALUE LIST
                                                                           {
+                                                                          "Comments" : "Right value list",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTExplorer",
                                                                           "Datasource": "attributeValueDatasource",
@@ -2001,6 +2119,7 @@
                                                                           },
                                                                           // CLEAR SEARCH BUTTON
                                                                           {
+                                                                          "Comments" : "Clear search button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -2020,6 +2139,7 @@
                                                                           
                                                                           // NO RESULTS MESSAGE
                                                                           {
+                                                                          "Comments" : "No results message",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -2056,6 +2176,7 @@
                                            "PortraitAndLandscapeLayout": [
                                                                           // LEFT PANEL BACKGROUND
                                                                           {
+                                                                          "Comments" : "Left panel background",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "0,0, 250, 748",
@@ -2066,6 +2187,7 @@
                                                                           },
                                                                           // BASIC SEARCH PANEL
                                                                           {
+                                                                          "Comments" : "Basic search panel",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "5, 60, 240, 210",
@@ -2077,6 +2199,7 @@
                                                                           },
                                                                           // Name Search text
                                                                           {
+                                                                          "Comments" : "Name search text",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -2090,6 +2213,7 @@
                                                                           },
                                                                           // Name Search data entry
                                                                           {
+                                                                          "Comments" : "Name Search data entry",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTextEdit",
                                                                           "Datasource": "nameSearchDataSource",
@@ -2101,6 +2225,7 @@
                                                                           },
                                                                           // Name Search text
                                                                           {
+                                                                          "Comments" : "Name Search text",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -2112,8 +2237,9 @@
                                                                           "URL" : "Search by reference",
                                                                           "EntityID":"refSearchText"
                                                                           },
-                                                                         // Reference Search text
+                                                                          // Reference Search text
                                                                           {
+                                                                          "Comments" : "Reference Search text",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTextEdit",
                                                                           "Datasource": "refSearchDataSource",
@@ -2125,6 +2251,7 @@
                                                                           },
                                                                           // SEARCH BUTTON
                                                                           {
+                                                                          "Comments" : "Search button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -2134,7 +2261,7 @@
                                                                           "LandscapeFrame": "20, 220, 200, 34",
                                                                           "CSSClass":"searchButtons",   // Theme
                                                                           "EntityID":"searchButton",
-                                                                          "URL" : "SEARCH",                                                                          
+                                                                          "URL" : "SEARCH",
                                                                           "Actions":
                                                                           {
                                                                           "ButtonClicked": "searchClicked"
@@ -2143,6 +2270,7 @@
                                                                           /////////////////// Advanced search /////////////
                                                                           // ADVANCED SEARCH PANEL
                                                                           {
+                                                                          "Comments" : "Advanced search panel",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTBackgroundWidget",
                                                                           "PortraitFrame": "5, 290, 240, 300",
@@ -2154,6 +2282,7 @@
                                                                           },
                                                                           // ADVANCED SEARCH TITLE
                                                                           {
+                                                                          "Comments" : "Advanced search title",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -2167,6 +2296,7 @@
                                                                           },
                                                                           // LEFT NAME TITLE
                                                                           {
+                                                                          "Comments" : "Left name title",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -2180,6 +2310,7 @@
                                                                           },
                                                                           // LEFT NAME LIST
                                                                           {
+                                                                          "Comments" : "Left name list",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTExplorer",
                                                                           "Datasource": "attributeNameDatasource",
@@ -2187,7 +2318,7 @@
                                                                           "LandscapeFrame": "20, 360, 100, 140",
                                                                           "Enabled": true,
                                                                           "CSSClass":"attributeDropdowns",  // Theme
-                                                                          "EntityID":"attrbuteName", 
+                                                                          "EntityID":"attrbuteName",
                                                                           "TableIndex": 0,
                                                                           "CellHeight": 30,
                                                                           "SubCellHeight": 131,
@@ -2198,6 +2329,7 @@
                                                                           },
                                                                           // RIGHT NAME TITLE
                                                                           {
+                                                                          "Comments" : "Right name title",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -2211,6 +2343,7 @@
                                                                           },
                                                                           // RIGHT VALUE LIST
                                                                           {
+                                                                          "Comments" : "Right value list",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTExplorer",
                                                                           "Datasource": "attributeValueDatasource",
@@ -2229,6 +2362,7 @@
                                                                           },
                                                                           // CLEAR SEARCH BUTTON
                                                                           {
+                                                                          "Comments" : "Clear search button",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTButtonWidget",
                                                                           "Datasource": "bogus",
@@ -2244,10 +2378,11 @@
                                                                           "ButtonClicked": "searchClicked"
                                                                           }
                                                                           },
-  
+                                                                          
                                                                           ///////////////////////////////////////////////////
                                                                           // PRODUCT GRID
                                                                           {
+                                                                          "Comments" : "Product search",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTImageGridWidget",
                                                                           "Datasource": "productsFound",
@@ -2267,6 +2402,7 @@
                                                                           },
                                                                           // NO RESULTS MESSAGE
                                                                           {
+                                                                          "Comments" : "No results message",
                                                                           "EntityType": "CFTWidget",
                                                                           "WidgetClass": "CFTLabelWidget",
                                                                           "Datasource": "bogus",
@@ -2280,7 +2416,7 @@
                                                                           "AnimationDisplay" : false,
                                                                           "EntityID":"emptySearchText"  // Theme
                                                                           },
-
+                                                                          
                                                                           ]
                                            }
                                            
@@ -2289,5 +2425,5 @@
     },
     
     
- 
+    
 }
